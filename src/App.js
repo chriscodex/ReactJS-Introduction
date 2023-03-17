@@ -16,12 +16,15 @@ function App() {
   return (
     <react.Fragment>
       <TodoCounter />
+
       <TodoSearch />
+
       <TodoList>
         {todos.map((todo) => (
-          <TodoItem key={todo.text} text={todo.text} otraPropiedad='xd'/>
+          <TodoItem key={todo.text} text={todo.text} otraPropiedad="xd" />
         ))}
       </TodoList>
+
       <CreateTodoButtom />
     </react.Fragment>
   );
