@@ -8,4 +8,5 @@ import { CreateTodoButtom } from './CreateTodoButton.js';
 
 const todos = [
   { text: 'Tarea 1', completed: false },
+  { text: 'Tarea 2', completed: true },
 ]
