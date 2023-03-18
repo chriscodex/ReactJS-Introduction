@@ -7,7 +7,5 @@ import { CreateTodoButtom } from './CreateTodoButton.js';
 //import './App.css';
 
 const todos = [
-  {
-    
-  }
+  { text: 'Tarea 1', completed: false },
 ]
