@@ -18,6 +18,9 @@ function App() {
       <TodoCounter />
 
       <TodoSearch />
+
+
+      <CreateTodoButtom />
     </react.Fragment>
   )
 }
