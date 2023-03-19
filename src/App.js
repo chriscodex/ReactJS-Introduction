@@ -11,3 +11,9 @@ const todos = [
   { text: 'Tarea 2', completed: true },
   { text: 'Tarea 3', completed: false },
 ];
+
+function App() {
+  return (
+    
+  )
+}
