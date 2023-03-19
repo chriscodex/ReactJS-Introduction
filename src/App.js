@@ -29,3 +29,5 @@ function App() {
     </react.Fragment>
   )
 }
+
+export default App;
