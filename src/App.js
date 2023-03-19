@@ -20,9 +20,6 @@ function App() {
       <TodoSearch />
 
       <TodoList>
-        {todos.map((todo) => (
-          <TodoItem key={todo.text} text={todo.text} otraPropiedad="xd" completed={todo.completed}/>
-        ))}
       </TodoList>
 
       <CreateTodoButtom />
