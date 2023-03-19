@@ -16,6 +16,8 @@ function App() {
   return (
     <react.Fragment>
       <TodoCounter />
+
+      <TodoSearch />
     </react.Fragment>
   )
 }
