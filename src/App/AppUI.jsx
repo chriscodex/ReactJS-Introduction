@@ -11,6 +11,7 @@ import { TodoForm } from '../components/TodoForm/index.jsx';
 function AppUI() {
   const {
     error,
+    loading,
   } = React.useContext(TodoContext);
 
   return (
