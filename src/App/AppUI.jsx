@@ -10,6 +10,7 @@ import { TodoForm } from '../components/TodoForm/index.jsx';
 
 function AppUI() {
   const {
+    error,
   } = React.useContext(TodoContext);
 
   return (
