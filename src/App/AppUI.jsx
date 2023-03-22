@@ -10,3 +10,5 @@ import { TodoForm } from '../components/TodoForm/index.jsx';
 
 function AppUI() {
 }
+
+export { AppUI };
