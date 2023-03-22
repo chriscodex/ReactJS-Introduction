@@ -12,6 +12,7 @@ function AppUI() {
   const {
     error,
     loading,
+    searchedTodos,
   } = React.useContext(TodoContext);
 
   return (
