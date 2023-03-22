@@ -9,6 +9,9 @@ import { Modal } from '../components/Modal/index.jsx';
 import { TodoForm } from '../components/TodoForm/index.jsx';
 
 function AppUI() {
+  const {
+  } = React.useContext(TodoContext);
+
 }
 
 export { AppUI };
