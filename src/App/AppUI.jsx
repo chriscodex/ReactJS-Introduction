@@ -26,6 +26,7 @@ function AppUI() {
 
       <TodoList>
         {error && <p>Desespérate, hubo un error...</p>}
+        {loading && <p>Estamos cargando, no desesperes...</p>}
       </TodoList>
 
       {openModal && (
