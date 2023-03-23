@@ -23,6 +23,9 @@ function AppUI() {
     <React.Fragment>
       <TodoCounter />
       <TodoSearch />
+
+      <TodoList>
+      </TodoList>
     </React.Fragment>
   );
 }
