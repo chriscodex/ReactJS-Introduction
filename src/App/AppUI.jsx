@@ -27,6 +27,8 @@ function AppUI() {
       <TodoList>
       </TodoList>
 
+      {openModal && (
+      )}
 
       <CreateTodoButtom
         setOpenModal={setOpenModal}
