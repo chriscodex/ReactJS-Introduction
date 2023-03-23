@@ -25,6 +25,7 @@ function AppUI() {
       <TodoSearch />
 
       <TodoList>
+        {error && <p>Desespérate, hubo un error...</p>}
       </TodoList>
 
       {openModal && (
