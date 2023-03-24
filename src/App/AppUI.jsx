@@ -33,6 +33,7 @@ function AppUI() {
           <TodoItem
             key={todo.text}
             text={todo.text}
+            completed={todo.completed}
           />
         ))}
       </TodoList>
