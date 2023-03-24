@@ -34,6 +34,7 @@ function AppUI() {
             key={todo.text}
             text={todo.text}
             completed={todo.completed}
+            onComplete={() => completeTodo(todo.text)}
           />
         ))}
       </TodoList>
