@@ -31,6 +31,7 @@ function AppUI() {
         
         {searchedTodos.map(todo => (
           <TodoItem
+            key={todo.text}
           />
         ))}
       </TodoList>
