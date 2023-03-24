@@ -30,6 +30,8 @@ function AppUI() {
         {(!loading && !searchedTodos.length) && <p>¡Crea tu primer TODO!</p>}
         
         {searchedTodos.map(todo => (
+          <TodoItem
+          />
         ))}
       </TodoList>
 
