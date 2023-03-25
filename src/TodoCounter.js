@@ -9,3 +9,5 @@ import './TodoCounter.css';
 
 function TodoCounter(){
 }
+
+export {TodoCounter};
