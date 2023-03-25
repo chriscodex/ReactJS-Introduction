@@ -8,7 +8,7 @@ function CreateTodoButton(props) {
 
     return (
         <button 
-        ></button>
+        >+</button>
     )
 }
 
