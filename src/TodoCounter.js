@@ -9,6 +9,7 @@ import './TodoCounter.css';
 
 function TodoCounter(){
     return(
+        <h2 className="TodoCounter"> Has completado 2 tareas de 3</h2>
     )
 }
 
