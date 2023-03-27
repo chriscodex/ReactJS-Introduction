@@ -1,7 +1,7 @@
 import React from "react";
 import './TodoList.css'
 
-function TodoList(){
+function TodoList(props){
 }
 
 export { TodoList};
