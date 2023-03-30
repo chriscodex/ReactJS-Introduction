@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   height: 64px;
+  width: 64px;
 }
 
 .CreateTodoButtom:hover {
