@@ -12,6 +12,7 @@
   color: #FAFAFA;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .CreateTodoButtom:hover {
