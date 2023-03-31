@@ -1,4 +1,5 @@
 .TodoItem {
   background-color: #FAFAFA;
   position: relative;
+  display: flex;
 }
