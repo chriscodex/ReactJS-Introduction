@@ -6,4 +6,5 @@
   height: 64px;
   width: calc(100% - 62px);
   font-size: 24px;
+  text-align: center;
 }
