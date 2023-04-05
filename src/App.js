@@ -43,6 +43,11 @@ function App() {
     })
   }
 
+  // Componente JSX
+  return (
+    <react.Fragment>
+    </react.Fragment>
+  )
 }
 
 export default App;
