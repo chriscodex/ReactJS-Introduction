@@ -60,6 +60,7 @@ function App() {
         {searchedTodos.map((todo) => (
           <TodoItem
             key={todo.text}
+            text={todo.text}
           />
         ))}
       </TodoList>
