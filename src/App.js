@@ -43,13 +43,15 @@ function App() {
     })
   }
 
-
   // Componente JSX
   return (
     <react.Fragment>
       <TodoCounter
         total={totalTodos}
         completed={completedTodos}
+      />
+
+      <TodoSearch
       />
     </react.Fragment>
   )
