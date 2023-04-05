@@ -35,6 +35,9 @@ function App() {
     searchedTodos = todos.filter(todo => {
       // Texto de la tarea
       const todoText = todo.text.toLowerCase()
+
+      // Texto de la búsqueda
+      const searchText = searchValue.toLowerCase()
     })
   }
 
