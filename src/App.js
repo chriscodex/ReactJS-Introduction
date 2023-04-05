@@ -38,6 +38,8 @@ function App() {
 
       // Texto de la búsqueda
       const searchText = searchValue.toLowerCase()
+
+      return todoText.includes(searchText)
     })
   }
 
