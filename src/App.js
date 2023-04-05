@@ -30,7 +30,12 @@ function App() {
 
   if (searchValue.length < 1) {
     searchedTodos = todos
+  } else {
+    // Filtro de cada tarea: Coincidencia
+    searchedTodos = todos.filter(todo => {
+    })
   }
+
 }
 
 export default App;
