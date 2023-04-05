@@ -6,28 +6,16 @@ import { TodoItem } from './TodoItem.js';
 import { CreateTodoButtom } from './CreateTodoButtom.js';
 //import './App.css';
 
-const todos = [
+const defaultTodos = [
   { text: 'Tarea 1', completed: false },
-  { text: 'Tarea 2', completed: true },
+  { text: 'Tareas 2', completed: true },
   { text: 'Tarea 3', completed: false },
 ];
 
 function App() {
-  return (
-    <react.Fragment>
-      <TodoCounter />
+  // Estados para los to do
+  const [todos, setTodos] = react.useState(defaultTodos)
 
-      <TodoSearch />
-
-      <TodoList>
-        {todos.map((todo) => (
-          <TodoItem key={todo.text} text={todo.text} otraPropiedad="xd" completed={todo.completed}/>
-        ))}
-      </TodoList>
-
-      <CreateTodoButtom />
-    </react.Fragment>
-  )
 }
 
 export default App;
