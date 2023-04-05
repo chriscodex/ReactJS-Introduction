@@ -19,6 +19,9 @@ function App() {
   // Estado para el buscador
   const [searchValue, setSearchValue] = react.useState('')
 
+  // Total de tareas
+  const totalTodos = todos.length
+
 }
 
 export default App;
