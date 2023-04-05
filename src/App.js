@@ -53,6 +53,7 @@ function App() {
 
       <TodoSearch
         searchValue={searchValue}
+        setSearchValue={setSearchValue}
       />
     </react.Fragment>
   )
