@@ -46,6 +46,8 @@ function App() {
   // Componente JSX
   return (
     <react.Fragment>
+      <TodoCounter
+      />
     </react.Fragment>
   )
 }
