@@ -49,6 +49,7 @@ function App() {
     <react.Fragment>
       <TodoCounter
         total={totalTodos}
+        completed={completedTodos}
       />
     </react.Fragment>
   )
