@@ -22,6 +22,9 @@ function App() {
   // Total de tareas
   const totalTodos = todos.length
 
+  // Total de tareas completadas
+  const completedTodos = todos.filter(todo => todo.completed).length
+
 }
 
 export default App;
