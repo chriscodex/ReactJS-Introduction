@@ -25,6 +25,9 @@ function App() {
   // Total de tareas completadas
   const completedTodos = todos.filter(todo => todo.completed).length
 
+  // Filtro para el buscador
+  let searchedTodos = []
+
 }
 
 export default App;
