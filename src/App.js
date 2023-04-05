@@ -16,6 +16,9 @@ function App() {
   // Estados para los to do
   const [todos, setTodos] = react.useState(defaultTodos)
 
+  // Estado para el buscador
+  const [searchValue, setSearchValue] = react.useState('')
+
 }
 
 export default App;
