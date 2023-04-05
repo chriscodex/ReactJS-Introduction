@@ -57,6 +57,8 @@ function App() {
       />
 
       <TodoList>
+        {searchedTodos.map((todo) => (
+        ))}
       </TodoList>
 
       <CreateTodoButtom />
