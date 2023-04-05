@@ -28,6 +28,9 @@ function App() {
   // Filtro para el buscador
   let searchedTodos = []
 
+  if (searchValue.length < 1) {
+    searchedTodos = todos
+  }
 }
 
 export default App;
