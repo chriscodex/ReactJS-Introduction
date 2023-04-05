@@ -58,6 +58,8 @@ function App() {
 
       <TodoList>
         {searchedTodos.map((todo) => (
+          <TodoItem
+          />
         ))}
       </TodoList>
 
