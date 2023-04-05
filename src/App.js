@@ -33,6 +33,8 @@ function App() {
   } else {
     // Filtro de cada tarea: Coincidencia
     searchedTodos = todos.filter(todo => {
+      // Texto de la tarea
+      const todoText = todo.text.toLowerCase()
     })
   }
 
