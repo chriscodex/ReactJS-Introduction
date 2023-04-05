@@ -25,7 +25,7 @@ function App() {
   // Total de tareas completadas
   const completedTodos = todos.filter(todo => todo.completed).length
 
-  // Filtro para el buscador
+  // Filtro para el buscador y los todos
   let searchedTodos = []
 
   if (searchValue.length < 1) {
@@ -43,10 +43,12 @@ function App() {
     })
   }
 
+
   // Componente JSX
   return (
     <react.Fragment>
       <TodoCounter
+        total={totalTodos}
       />
     </react.Fragment>
   )
