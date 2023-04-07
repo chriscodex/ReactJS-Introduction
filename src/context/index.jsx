@@ -18,6 +18,8 @@ function TodoProvider(props) {
   // Estado del modal
   const [openModal, setOpenModal] = React.useState(false)
 
+  // Total de tareas
+
 }
 
 export { TodoContext, TodoProvider }
