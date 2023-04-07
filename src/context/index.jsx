@@ -8,6 +8,7 @@ function TodoProvider(props) {
   const {
     item: todos,
     saveItem: saveTodos,
+    loading,
   } = useLocalStorage('TODOS_V1', []);
 
 }
