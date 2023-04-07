@@ -12,6 +12,8 @@ function TodoProvider(props) {
     error
   } = useLocalStorage('TODOS_V1', []);
 
+  // Estado para el buscador
+
 }
 
 export { TodoContext, TodoProvider }
