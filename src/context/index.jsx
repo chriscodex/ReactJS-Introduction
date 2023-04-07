@@ -22,6 +22,7 @@ function TodoProvider(props) {
   const totalTodos = todos.length;
 
   // Total de tareas completadas
+  const completedTodos = todos.filter((todo) => todo.completed).length;
 
 }
 
