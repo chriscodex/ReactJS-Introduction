@@ -13,6 +13,7 @@ function TodoProvider(props) {
   } = useLocalStorage('TODOS_V1', []);
 
   // Estado para el buscador
+  const [setSearchValue] = React.useState('');
 
 }
 
