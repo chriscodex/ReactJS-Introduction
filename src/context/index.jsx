@@ -21,6 +21,7 @@ function TodoProvider(props) {
   // Total de tareas
   const totalTodos = todos.length;
 
+  // Total de tareas completadas
 
 }
 
