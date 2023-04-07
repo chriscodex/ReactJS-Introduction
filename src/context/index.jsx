@@ -15,6 +15,8 @@ function TodoProvider(props) {
   // Estado para el buscador
   const [searchValue, setSearchValue] = React.useState('');
 
+  // Estado del modal
+
 }
 
 export { TodoContext, TodoProvider }
