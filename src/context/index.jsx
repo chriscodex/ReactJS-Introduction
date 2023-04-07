@@ -16,6 +16,7 @@ function TodoProvider(props) {
   const [searchValue, setSearchValue] = React.useState('');
 
   // Estado del modal
+  const [openModal, setOpenModal] = React.useState(false)
 
 }
 
