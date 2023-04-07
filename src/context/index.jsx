@@ -19,6 +19,8 @@ function TodoProvider(props) {
   const [openModal, setOpenModal] = React.useState(false)
 
   // Total de tareas
+  const totalTodos = todos.length;
+
 
 }
 
