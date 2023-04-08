@@ -61,6 +61,7 @@ function TodoProvider(props) {
   
   // To do completado
   const addTodo = (text) => {
+    const newTodos = [...todos];
   };
 
 }
