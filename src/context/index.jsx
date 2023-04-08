@@ -51,6 +51,9 @@ function TodoProvider(props) {
 
     // Copiar elementos del estado a otro array
     const newTodos = [...todos];
+
+    // Cambiar la propiedad del objeto
+    newTodos[todoIndex].completed = true;
   };
 
 }
