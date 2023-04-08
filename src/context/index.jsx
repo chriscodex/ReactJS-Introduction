@@ -58,6 +58,10 @@ function TodoProvider(props) {
     // Actualzar el estado - rerenderizado
     saveTodos(newTodos);
   };
+  
+  // To do completado
+  const addTodo = (text) => {
+  };
 
 }
 
