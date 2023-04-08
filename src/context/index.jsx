@@ -31,6 +31,16 @@ function TodoProvider(props) {
   if (searchValue.length < 1) {
     searchedTodos = todos;
   } else {
+    // Filtro de cada tarea: Coincidencia
+    searchedTodos = todos.filter((todo) => {
+      // Texto de la tarea
+      const todoText = todo.text.toLowerCase();
+
+      // Texto de la búsqueda
+      const searchText = searchValue.toLowerCase();
+
+      return todoText.includes(searchText);
+    });
   }
 
 }
