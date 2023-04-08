@@ -27,6 +27,11 @@ function TodoProvider(props) {
   /* Filtro de Todos */
   // Filtro para el buscador y los todos
   let searchedTodos = [];
+
+  if (searchValue.length < 1) {
+  } else {
+  }
+
 }
 
 export { TodoContext, TodoProvider }
