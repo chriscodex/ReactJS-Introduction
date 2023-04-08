@@ -54,6 +54,9 @@ function TodoProvider(props) {
 
     // Cambiar la propiedad del objeto
     newTodos[todoIndex].completed = true;
+
+    // Actualzar el estado - rerenderizado
+    saveTodos(newTodos);
   };
 
 }
