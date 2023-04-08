@@ -45,6 +45,9 @@ function TodoProvider(props) {
 
   // To do completado
   const completeTodo = (text) => {
+    const todoIndex = todos.findIndex((todo) => {
+      return todo.text === text;
+    });
   };
 
 }
