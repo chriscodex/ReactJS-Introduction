@@ -43,6 +43,10 @@ function TodoProvider(props) {
     });
   }
 
+  // To do completado
+  const completeTodo = (text) => {
+  };
+
 }
 
 export { TodoContext, TodoProvider }
