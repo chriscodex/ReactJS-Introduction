@@ -24,6 +24,9 @@ function TodoProvider(props) {
   // Total de tareas completadas
   const completedTodos = todos.filter((todo) => todo.completed).length;
 
+  /* Filtro de Todos */
+  // Filtro para el buscador y los todos
+  let searchedTodos = [];
 }
 
 export { TodoContext, TodoProvider }
