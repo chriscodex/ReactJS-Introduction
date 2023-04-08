@@ -29,6 +29,7 @@ function TodoProvider(props) {
   let searchedTodos = [];
 
   if (searchValue.length < 1) {
+    searchedTodos = todos;
   } else {
   }
 
