@@ -65,6 +65,7 @@ function TodoProvider(props) {
 
     newTodos.push({
       completed: false,
+      text
     })
   };
 
