@@ -72,6 +72,10 @@ function TodoProvider(props) {
     saveTodos(newTodos);
   };
 
+  // To do eliminado
+  const deleteTodo = (text) => {
+  };
+
 }
 
 export { TodoContext, TodoProvider }
