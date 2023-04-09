@@ -90,6 +90,7 @@ function TodoProvider(props) {
 
   return (
     <TodoContext.Provider value={{
+      loading,
     }}>
     </TodoContext.Provider>
   )
