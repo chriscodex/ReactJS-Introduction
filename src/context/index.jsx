@@ -77,6 +77,9 @@ function TodoProvider(props) {
     const todoIndex = todos.findIndex((todo) => {
       return todo.text === text;
     });
+
+    // Copiar elementos del estado a otro array
+    const newTodos = [...todos];
   };
 
 }
