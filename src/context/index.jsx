@@ -83,6 +83,9 @@ function TodoProvider(props) {
 
     // Eliminar el elemento del array
     newTodos.splice(todoIndex, 1);
+
+    // Actualzar el estado - rerenderizado
+    saveTodos(newTodos);
   };
 
 }
