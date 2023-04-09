@@ -67,6 +67,9 @@ function TodoProvider(props) {
       completed: false,
       text
     })
+
+    // Actualzar el estado - rerenderizado
+    saveTodos(newTodos);
   };
 
 }
