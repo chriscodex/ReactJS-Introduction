@@ -74,6 +74,8 @@ function TodoProvider(props) {
 
   // To do eliminado
   const deleteTodo = (text) => {
+    const todoIndex = todos.findIndex((todo) => {
+    });
   };
 
 }
