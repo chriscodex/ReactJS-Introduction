@@ -80,6 +80,9 @@ function TodoProvider(props) {
 
     // Copiar elementos del estado a otro array
     const newTodos = [...todos];
+
+    // Eliminar el elemento del array
+    newTodos.splice(todoIndex, 1);
   };
 
 }
