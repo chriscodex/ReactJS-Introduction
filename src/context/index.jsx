@@ -94,6 +94,7 @@ function TodoProvider(props) {
       error,
       totalTodos,
       completedTodos,
+      searchValue,
     }}>
     </TodoContext.Provider>
   )
