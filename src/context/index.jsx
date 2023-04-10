@@ -93,6 +93,7 @@ function TodoProvider(props) {
       loading,
       error,
       totalTodos,
+      completedTodos,
     }}>
     </TodoContext.Provider>
   )
