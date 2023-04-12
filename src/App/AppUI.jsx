@@ -11,6 +11,7 @@ function AppUI({
   totalTodos,
   completedTodos,
   searchValue,
+  setSearchValue,
 }) {
   
 }
