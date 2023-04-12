@@ -12,6 +12,7 @@ function AppUI({
   completedTodos,
   searchValue,
   setSearchValue,
+  searchedTodos,
 }) {
   
 }
