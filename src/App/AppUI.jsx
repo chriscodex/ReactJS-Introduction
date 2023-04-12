@@ -10,6 +10,7 @@ function AppUI({
   loading,
   totalTodos,
   completedTodos,
+  searchValue,
 }) {
   
 }
