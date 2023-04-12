@@ -8,6 +8,7 @@ import { CreateTodoButtom } from '../components/CreateTodoButtom/index.jsx';
 function AppUI({
   error,
   loading,
+  totalTodos,
 }) {
   
 }
