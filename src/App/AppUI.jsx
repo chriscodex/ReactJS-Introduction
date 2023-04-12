@@ -9,6 +9,7 @@ function AppUI({
   error,
   loading,
   totalTodos,
+  completedTodos,
 }) {
   
 }
