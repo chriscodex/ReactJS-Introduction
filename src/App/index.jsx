@@ -11,6 +11,7 @@ import { AppUI } from './AppUI.jsx';
 // ];
 
 function App() {
+  // Componente JSX
 }
 
 export default App;
