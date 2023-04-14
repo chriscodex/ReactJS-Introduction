@@ -9,3 +9,5 @@ import { AppUI } from './AppUI.jsx';
 //   { text: 'Tareas 2', completed: true },
 //   { text: 'Tarea 3', completed: false },
 // ];
+
+export default App;
