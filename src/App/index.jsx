@@ -13,6 +13,8 @@ import { AppUI } from './AppUI.jsx';
 function App() {
   // Componente JSX
   return (
+    <TodoProvider>
+    </TodoProvider>
   );
 }
 
