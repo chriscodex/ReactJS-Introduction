@@ -14,7 +14,7 @@ function App() {
   // Componente JSX
   return (
     <TodoProvider>
-      </>
+      <AppUI />
     </TodoProvider>
   );
 }
