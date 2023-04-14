@@ -10,4 +10,7 @@ import { AppUI } from './AppUI.jsx';
 //   { text: 'Tarea 3', completed: false },
 // ];
 
+function App() {
+}
+
 export default App;
