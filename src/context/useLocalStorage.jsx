@@ -17,6 +17,7 @@ function useLocalStorage(itemName, initialValue) {
     setTimeout(() => {
       try {
       } catch (error) {
+        setError(error);
       }
     }, 2000);
   });
