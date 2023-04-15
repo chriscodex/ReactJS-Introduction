@@ -103,6 +103,7 @@ function TodoProvider(props) {
       openModal,
       setOpenModal
     }}>
+      {props.children}
     </TodoContext.Provider>
   )
 }
