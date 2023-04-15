@@ -12,6 +12,9 @@ function useLocalStorage(itemName, initialValue) {
   // Estados para el item
   const [item, setItem] = React.useState(initialValue);
 
+  /* Efecto de carga - React Hook (.useEffect) */
+  React.useEffect(() => {
+  });
 
 
 }
