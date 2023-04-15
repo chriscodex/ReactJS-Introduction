@@ -15,6 +15,9 @@ function useLocalStorage(itemName, initialValue) {
   /* Efecto de carga - React Hook (.useEffect) */
   React.useEffect(() => {
     setTimeout(() => {
+      try {
+      } catch (error) {
+      }
     }, 2000);
   });
 
