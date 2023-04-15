@@ -101,6 +101,7 @@ function TodoProvider(props) {
       completeTodo,
       deleteTodo,
       openModal,
+      setOpenModal
     }}>
     </TodoContext.Provider>
   )
