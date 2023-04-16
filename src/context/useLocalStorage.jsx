@@ -27,6 +27,8 @@ function useLocalStorage(itemName, initialValue) {
         } else {
           parsedItem = JSON.parse(localStorageItem);
         }
+
+        setItem(parsedItem);
       } catch (error) {
         setError(error);
       }
