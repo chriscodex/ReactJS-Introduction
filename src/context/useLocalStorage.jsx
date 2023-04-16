@@ -20,6 +20,11 @@ function useLocalStorage(itemName, initialValue) {
         // Almacenamiento en local storage
         const localStorageItem = localStorage.getItem(itemName);
         let parsedItem;
+
+        if (!localStorageItem) {
+          localStorage.setItem(itemName, JSON.stringify(initialValue));
+        } else {
+        }
       } catch (error) {
         setError(error);
       }
