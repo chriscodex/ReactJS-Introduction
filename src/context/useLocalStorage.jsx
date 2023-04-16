@@ -36,5 +36,8 @@ function useLocalStorage(itemName, initialValue) {
     }, 2000);
   });
 
+  // Actualización de componente de local storage
+  const saveItem = (newItem) => {
+  };
 
 }
