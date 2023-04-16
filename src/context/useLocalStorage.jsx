@@ -16,6 +16,9 @@ function useLocalStorage(itemName, initialValue) {
   React.useEffect(() => {
     setTimeout(() => {
       try {
+        /* Local Storage */
+        // Almacenamiento en local storage
+        const localStorageItem = localStorage.getItem(itemName);
       } catch (error) {
         setError(error);
       }
