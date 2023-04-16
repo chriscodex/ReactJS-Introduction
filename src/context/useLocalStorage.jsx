@@ -19,6 +19,7 @@ function useLocalStorage(itemName, initialValue) {
         /* Local Storage */
         // Almacenamiento en local storage
         const localStorageItem = localStorage.getItem(itemName);
+        let parsedItem;
       } catch (error) {
         setError(error);
       }
