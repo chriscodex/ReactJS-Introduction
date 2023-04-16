@@ -38,6 +38,9 @@ function useLocalStorage(itemName, initialValue) {
 
   // Actualización de componente de local storage
   const saveItem = (newItem) => {
+    try {
+    } catch (error) {
+    }
   };
 
 }
