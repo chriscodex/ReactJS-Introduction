@@ -43,6 +43,7 @@ function useLocalStorage(itemName, initialValue) {
       localStorage.setItem(itemName, stringifiedItem);
       setItem(newItem);
     } catch (error) {
+      setError(error);
     }
   };
 
