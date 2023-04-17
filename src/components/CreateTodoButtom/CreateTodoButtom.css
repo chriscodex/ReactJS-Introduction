@@ -8,6 +8,7 @@
   position: fixed;
   bottom: 24px;
   right: 24px;
+  font-weight: bold;
 }
 
 .CreateTodoButtom:hover {
