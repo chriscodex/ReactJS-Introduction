@@ -47,4 +47,7 @@ function useLocalStorage(itemName, initialValue) {
     }
   };
 
+  return {
+    item,
+  };
 }
