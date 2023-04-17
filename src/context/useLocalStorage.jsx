@@ -50,5 +50,6 @@ function useLocalStorage(itemName, initialValue) {
   return {
     item,
     saveItem,
+    loading,
   };
 }
