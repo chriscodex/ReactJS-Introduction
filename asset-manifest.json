@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ReactJS-introduction/static/css/main.43e944af.css",
+    "main.js": "/ReactJS-introduction/static/js/main.4733946e.js",
+    "index.html": "/ReactJS-introduction/index.html",
+    "static/media/x-red.svg": "/ReactJS-introduction/static/media/x-red.139e2423c0c58fda0a43.svg",
+    "static/media/x.svg": "/ReactJS-introduction/static/media/x.eb0580540d6e03cd2d52.svg",
+    "static/media/circle-check.svg": "/ReactJS-introduction/static/media/circle-check.337bb861b9e4211753fb.svg",
+    "static/media/circle.svg": "/ReactJS-introduction/static/media/circle.5022754cfbf199720b9a.svg",
+    "main.43e944af.css.map": "/ReactJS-introduction/static/css/main.43e944af.css.map",
+    "main.4733946e.js.map": "/ReactJS-introduction/static/js/main.4733946e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43e944af.css",
+    "static/js/main.4733946e.js"
+  ]
+}
