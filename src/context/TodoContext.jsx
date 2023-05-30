@@ -15,6 +15,10 @@ function TodoProvider({ children }) {
   // Estado para el modal
   const [openModal, setOpenModal] = React.useState(false);
 
+  // Contador de todos completados
+  const completedTodos = todos.filter((todo) => todo.completed).length;
+  const totalTodos = todos.length;
+
 }
 
 export { TodoContext, TodoProvider };
