@@ -36,6 +36,16 @@ function TodoProvider({ children }) {
 
     saveTodos(newTodos);
   };
+
+  // Todo delete
+  const onDelete = (text) => {
+    const newTodos = [...todos];
+    const todoIndex = newTodos.findIndex((todo) => {
+      return todo.text === text;
+    });
+    newTodos.splice(todoIndex, 1);
+    saveTodos(newTodos);
+  };
 }
 
 export { TodoContext, TodoProvider };
