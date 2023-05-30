@@ -46,6 +46,17 @@ function TodoProvider({ children }) {
     newTodos.splice(todoIndex, 1);
     saveTodos(newTodos);
   };
+
+  // Add Todo
+  const addTodo = (text) => {
+    const newTodos = [...todos]
+    const newTodo = {
+      text: text, 
+      completed: false
+    }
+    newTodos.push(newTodo)
+    saveTodos(newTodos)
+  }
 }
 
 export { TodoContext, TodoProvider };
