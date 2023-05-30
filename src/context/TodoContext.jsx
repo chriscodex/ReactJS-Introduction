@@ -11,6 +11,10 @@ function TodoProvider({ children }) {
     error,
   } = useLocalStorage('TODOS_V1', []);
   const [searchValue, setSearchValue] = React.useState('');
+
+  // Estado para el modal
+  const [openModal, setOpenModal] = React.useState(false);
+
 }
 
 export { TodoContext, TodoProvider };
