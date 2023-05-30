@@ -25,6 +25,17 @@ function TodoProvider({ children }) {
     const searchText = searchValue.toLowerCase();
     return todoText.includes(searchText);
   });
+
+  // Todo complete
+  const onComplete = (text) => {
+    const newTodos = [...todos];
+    const todoIndex = newTodos.findIndex((todo) => {
+      return todo.text === text;
+    });
+    newTodos[todoIndex].completed = !newTodos[todoIndex].completed;
+
+    saveTodos(newTodos);
+  };
 }
 
 export { TodoContext, TodoProvider };
