@@ -57,6 +57,27 @@ function TodoProvider({ children }) {
     newTodos.push(newTodo)
     saveTodos(newTodos)
   }
+
+  return (
+    <TodoContext.Provider
+      value={{
+        loading,
+        error,
+        completedTodos,
+        totalTodos,
+        searchValue,
+        setSearchValue,
+        searchedTodos,
+        onComplete,
+        onDelete,
+        addTodo,
+        openModal,
+        setOpenModal
+      }}
+    >
+      {children}
+    </TodoContext.Provider>
+  );
 }
 
 export { TodoContext, TodoProvider };
