@@ -19,6 +19,12 @@ function TodoProvider({ children }) {
   const completedTodos = todos.filter((todo) => todo.completed).length;
   const totalTodos = todos.length;
 
+  // Filtrar los inputs
+  const searchedTodos = todos.filter((todo) => {
+    const todoText = todo.text.toLowerCase();
+    const searchText = searchValue.toLowerCase();
+    return todoText.includes(searchText);
+  });
 }
 
 export { TodoContext, TodoProvider };
